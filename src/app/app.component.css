@@ -1,0 +1,40 @@
+.form-group{
+    background-color: rgb(241, 18, 18);
+    border: 2px;
+    border-color: black;
+   
+}
+.card-body{
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px;
+    border-color: black;
+    margin-top: 15%;
+}
+.header{
+    margin-left: 45%;
+}
+.btn{
+    background-color: rgb(69, 130, 221);
+    position: fixed;
+    padding: 5px 10px;
+    text-align: center;
+    color: black;
+    
+}
+.form-control{
+    width: 34pc;
+    height: 2pc;
+}
+.header{
+    color:white;
+}
+/* /* .container{
+    background-color: rgb(240, 0, 0);
+    padding-top: 50px;
+    position: relative;
+} 
+.hs-login-wrapper{
+    padding-bottom: 50%;
+    
+} */

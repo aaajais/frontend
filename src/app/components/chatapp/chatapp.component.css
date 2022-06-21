@@ -1,0 +1,53 @@
+/* .chat-panel{
+    background-color: rgb(31, 214, 144);
+    margin-left: 20%;
+    margin-right: 20%;
+    
+} */
+
+/* <-------------------------new---------------------> */
+.container-fluid{
+    background-color: rgb(255, 255, 255);
+   padding-bottom: 50%;
+   border-color: black;
+    margin-right: 50%;
+    
+
+
+}
+
+.col-users{
+    color:aliceblue
+}
+.box1{
+    height: 500px;
+    border: 1ch;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(94, 93, 93);
+    
+}
+
+.col-users{
+    background:rgb(219, 38, 38);
+    
+}
+.row{
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2px solid black;
+    
+}
+.msg-to{
+    background: rgb(230, 106, 106);
+    border-radius: 1ch;
+    color: rgb(10, 10, 10);
+    margin-left: 35%;
+}
+.send-text{
+    margin-right: 30%;
+    margin-bottom: 20%;
+}
+.chatbox1{
+    background-color: darkgray;
+}

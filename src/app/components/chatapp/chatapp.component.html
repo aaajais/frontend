@@ -1,0 +1,86 @@
+<!-- <div class="chat-wrapper">
+    <div class="col-users">
+        <h2>Users</h2>
+    </div>
+    <div class="online-users-panel">
+        <div class="chat-row-wrp">
+            <ng-container *ngFor="let user of users;">
+                <div class="online-user">
+                    <div class="online-icon">
+                        <span *ngIf="user?.id.length > 0" class="online"></span>
+                    </div>
+                    <span class="name-initials">{{user.name}}</span>
+                </div>
+                <hr />
+            </ng-container>
+            <div class="online-users" *ngIf="users?.length ==0">No Users</div>
+        </div>
+    </div>
+    <div class="col-chat">
+        <div class="chat-panel">
+            <ng-container *ngFor="let message of messages;">
+                <div class="message-right">
+                    <div class="msg-to"><h4>
+                        {{message.msg}}</h4>
+                        <span class="time text-muted small">
+                            {{message.time}} | {{message.user}}
+                        </span>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+        <div class="send-text">
+            <input type="text" placeholder="Type your message here.." name="textsend" [(ngModel)]="msgtext" />
+            <button><i class="fa-solid fa-paper-plane" (click)="sendMessage()"></i></button>
+        </div>
+    </div>
+</div> -->
+
+<!-- </-------------------new------------------------/> -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+            <div class="col-users">
+                <h2>CHAT ROOM</h2>
+            </div>
+            <div class="online-users-panel">
+                <div class="chat-row-wrp">
+                    <ng-container *ngFor="let user of users;">
+                        <div class="online-user">
+                            <div class="online-icon">
+                                <span *ngIf="user?.id.length > 0" class="online"></span>
+                            </div>
+                            <span class="name-initials"><h3>{{user.name}}</h3></span>
+                        </div>
+                        <hr />
+                    </ng-container>
+                    <div class="online-users" *ngIf="users?.length ==0">No Users</div>
+                </div>
+            </div>
+         
+        </div>
+        <div class="col-sm-10 d-flex flex-column">
+            <div class="chatbox1">
+            <div class="box1">
+                <ng-container *ngFor="let message of messages;">
+                    <div class="message-right">
+                        <div class="msg-to"><h4>
+                            {{message.msg}}</h4>
+                            <span class="time text-muted small">
+                                {{message.time|date:'shortTime'}} | {{message.user}}
+                            </span>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+            <div class="send-text">
+                <input type="text" placeholder="Type your message here.." name="textsend" [(ngModel)]="msgtext" />
+                <button><i class="fa-solid fa-paper-plane" (click)="sendMessage()"></i></button>
+            </div>
+        </div>
+        </div>
+</div>
+
+
+
